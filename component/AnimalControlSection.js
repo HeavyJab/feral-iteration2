@@ -28,10 +28,11 @@ export const AnimalControlSection = (props) => {
         },
     };
 
-    // const controlMethods = data.map((controlMethod) => {
-    //     <ControlCard title={controlMethod.eradication.name}></ControlCard>;
-    // });
+    const controlMethods = data.map((controlMethod) => {
+        <ControlCard title={controlMethod.eradication.name}></ControlCard>;
+    });
 
+    console.log(data)
     return (
         <>
         <div className={styles.controlSection}>
