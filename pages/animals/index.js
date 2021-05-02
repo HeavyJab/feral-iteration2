@@ -24,7 +24,6 @@ export default function Animals() {
 
     setData(result.data);
     setControlData(controlResult.data)
-    console.log(controlData)
   }, []);
 
   const handleClick = async (e, { name }) => {
